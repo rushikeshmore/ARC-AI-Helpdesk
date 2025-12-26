@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export function Footer(): JSX.Element {
+export function Footer() {
   return (
     <footer className="relative border-t border-[var(--border-subtle)] py-12 bg-gradient-to-b from-[#1a1716] to-[#0E0C0B]">
       <div className="max-w-6xl mx-auto px-6">

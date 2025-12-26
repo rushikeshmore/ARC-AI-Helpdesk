@@ -2,7 +2,7 @@ import { Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
-export function DiscoveryEngine(): JSX.Element {
+export function DiscoveryEngine() {
   return (
     <section id="how-it-works" className="relative py-24 sm:py-32 bg-gradient-to-b from-[#1a1716] to-[#0E0C0B]">
       <div className="max-w-7xl mx-auto px-6">

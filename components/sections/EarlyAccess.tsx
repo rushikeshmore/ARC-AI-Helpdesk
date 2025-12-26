@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Select } from "@/components/ui/select";
 import { CheckCircle2, Sparkles } from "lucide-react";
 
-export function EarlyAccess(): JSX.Element {
+export function EarlyAccess() {
   const [submitted, setSubmitted] = useState(false);
   const [formData, setFormData] = useState({
     email: "",

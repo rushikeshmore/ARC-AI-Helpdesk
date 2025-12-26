@@ -7,7 +7,7 @@ import { FAQ } from "@/components/sections/FAQ";
 import { EarlyAccess } from "@/components/sections/EarlyAccess";
 import { Footer } from "@/components/sections/Footer";
 
-export default function Home(): JSX.Element {
+export default function Home() {
   return (
     <div className="min-h-screen bg-[var(--background)]">
       <Navigation />

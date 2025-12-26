@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import Image from "next/image";
 
-export function Hero(): JSX.Element {
+export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0E0C0B]">
       {/* Background Image with Dark Overlay that blends into next section */}

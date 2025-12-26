@@ -3,7 +3,7 @@ import Link from "next/link";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
-export function Navigation(): JSX.Element {
+export function Navigation() {
   return (
     <nav className="absolute top-0 left-0 right-0 z-50 bg-transparent">
       <div className="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">

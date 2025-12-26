@@ -8,7 +8,7 @@ import {
   AccordionContent,
 } from "@/components/ui/accordion";
 
-export function FAQ(): JSX.Element {
+export function FAQ() {
   const faqs = [
     {
       question: "What makes ShopSense different from chatbots?",

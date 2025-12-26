@@ -1,7 +1,7 @@
 import { FileText, Layout, BarChart3, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-export function Features(): JSX.Element {
+export function Features() {
   return (
     <section className="relative py-24 sm:py-32 bg-gradient-to-b from-[#0E0C0B] to-[#1a1716]">
       <div className="max-w-7xl mx-auto px-6">
